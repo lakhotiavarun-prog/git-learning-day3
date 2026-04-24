@@ -11,5 +11,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Print message
-        run: echo "Hello from CI"  
+      - name: Run Python file
+        run: python app.py  
