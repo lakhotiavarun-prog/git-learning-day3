@@ -11,5 +11,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install Dependencies
+        run: pip install faker
+
       - name: Run Python file
         run: python app.py  
+
